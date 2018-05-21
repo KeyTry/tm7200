@@ -1,16 +1,33 @@
-body {
-    background: #b63d3d;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import "homepage";
+.custom-navbar {
+    background-color: #464646;
 }
 
-h1 {
-    margin: 0px;
-    font-size: 96px;
-    color: #b63d3d;
+.nav-links {
+    text-align: end;
+}
+
+body {
+    background: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.blog-title {
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
 }
 
 .header-class {
-    background: #ffffff;
+    background: #000000;
+}
+
+.head-image {
+    border-radius: 50%;
+    border-color: #fff9a5 2px;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .site-title {

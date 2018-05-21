@@ -1,0 +1,66 @@
+.profile-image {
+    border-radius: 50%;
+    border-color: #fff9a5;
+    border-style: solid;
+    border-width: 3px;
+    height: 200px;
+    width: auto;
+    text-align: center;
+}
+
+.bio-box {
+    height: auto;
+    margin-left: 24px;
+}
+
+.clear {
+    clear: both;
+}
+
+.projects-box {
+    margin-top: 32px;
+}
+
+.project-box {
+    border-color: #fff9a5;
+    border-style: solid;
+    border-width: 3px;
+    height: 256;
+    margin: 32px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project-box:hover {
+    .project-text {
+        font-size: 36px;
+    }
+    .project-image {
+        transform: scale(1, 1);
+        -ms-transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+    }
+}
+
+.projects-wrapper {
+    margin-top: 12px;
+}
+
+.project-text {
+    margin-top: 50%;
+    transition: 0.6s;
+}
+
+.project-image {
+    transform: scale(0.7, 0.7);
+    -ms-transform: scale(0.7, 0.7);
+    -webkit-transform: scale(0.7, 0.7);
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
+    opacity: 0.4;
+    transition: 1s;
+}
