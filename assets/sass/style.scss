@@ -9,7 +9,6 @@
 
 body {
     background: #000000;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
 }
 
@@ -39,16 +38,7 @@ body {
 }
 
 .content-box {
-    margin: 24px 92px 0px 92px;
-}
-
-.blog-box {
-    background-color: #e2d3d3;
-    margin: 12px;
-    margin-left: 128px;
-    margin-right: 64px;
-    border-radius: 3px;
-    padding: 12px;
+    margin: 24px 92px 1px 92px;
 }
 
 footer {
@@ -56,4 +46,48 @@ footer {
     color: #ffffff;
     padding: 12px;
     margin-top: 24px;
+}
+
+a{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+// Archivo
+.proj-link-box{
+    height:192px;
+    overflow: hidden;
+    transition: 0.4s;
+    position: relative;
+}
+
+.proj-link-box:hover{
+    height:256px;
+    overflow: hidden;
+}
+
+.proj-link-image{
+    opacity: 0.8;
+    transition: 0.8s;
+}
+
+.proj-link-image:hover{
+    opacity: 0.3;
+}
+
+.proj-link-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+//Proyecto
+.proyecto-box{
+    overflow: hidden;
+    max-height: 256px;
+}
+
+.proyecto-image{
+    margin: auto;
 }

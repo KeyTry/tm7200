@@ -36,8 +36,8 @@ get_header();
                 <h1 class="col-12 text-center">Proyectos</h1>
             </div>
             <div class="row projects-wrapper justify-content-center">
-                    <div class="project-box col-12 col-md-3 align-self-center"><img class="project-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/FIO.PNG"><h2 class="text-center align-self-center project-text">Animación</h2></div>
-                    <div class="project-box col-12 col-md-3 align-self-center"><img class="project-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/mirroredplane.png"><h2 class="text-center align-self-center project-text">Videojuegos</h2></div>
+                    <div class="project-box col-12 col-md-3 align-self-center"><a href="http://localhost/wordpress/archivo/archivo-animacion/"><img class="project-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/FIO.PNG"><h2 class="text-center align-self-center project-text">Animación</h2></a></div>
+                    <div class="project-box col-12 col-md-3 align-self-center"><a href="http://localhost/wordpress/archivo/archivo-videojuegos/"><img class="project-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/mirroredplane.png"><h2 class="text-center align-self-center project-text">Videojuegos</h2></a></div>
                     <div class="project-box col-12 col-md-3 align-self-center"><h2 class="text-center align-self-center project-text">Diseño</h2></div>
                     <div class="project-box col-12 col-md-3 align-self-center"><h2 class="text-center align-self-center project-text">Diseño</h2></div>
             </div>

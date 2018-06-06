@@ -28,6 +28,7 @@
     height: 256;
     margin: 32px;
     overflow: hidden;
+    position: relative;
     transition: 0.3s;
 }
 
@@ -47,7 +48,10 @@
 }
 
 .project-text {
-    margin-top: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     transition: 0.6s;
 }
 
