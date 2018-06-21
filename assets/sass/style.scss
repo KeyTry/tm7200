@@ -1,4 +1,13 @@
 @import "homepage";
+@import url('https://fonts.googleapis.com/css?family=BioRhyme');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+$title-font: 'Bitter', serif;
+
+h1,h2,h3,h4,h5,h6{
+    font-family: $title-font;
+}
+
 .custom-navbar {
     background-color: #464646;
 }
@@ -83,11 +92,30 @@ a{
 }
 
 //Proyecto
+.project-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
+@media (min-width: 576px) {
+    .project-title {
+        font-size: 92px;
+      }
+}
+
+.title-container{
+    position: relative;
+    text-align: center;
+}
+
 .proyecto-box{
     overflow: hidden;
-    max-height: 256px;
+    max-height: 384px;
 }
 
 .proyecto-image{
-    margin: auto;
+    opacity: 0.5;
 }
