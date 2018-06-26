@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <h1 class="text-center"> <?php the_title() ?> </h1>
+    <h1 class="text-center archivo-title"> <?php the_title() ?> </h1>
 
     <?php 
     $categories = get_the_category();
@@ -20,7 +20,7 @@
                                         echo the_post_thumbnail_url();}; 
                                     ?>
                                 ">
-                                <h2 class="proj-link-text"><?php the_title() ?></h2>
+                                <h2 class="proj-title"><?php the_title() ?></h2>
                             </a>
                         </div>
                     <?php wp_reset_postdata(); ?>

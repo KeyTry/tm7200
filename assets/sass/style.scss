@@ -1,8 +1,14 @@
 @import "homepage";
-@import url('https://fonts.googleapis.com/css?family=BioRhyme');
 @import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 $title-font: 'Bitter', serif;
+$body-font: 'Raleway', sans-serif;
+
+body,p,span{
+    font-family: $body-font;
+    font-size: 1.2em;
+}
 
 h1,h2,h3,h4,h5,h6{
     font-family: $title-font;
@@ -63,11 +69,17 @@ a{
 }
 
 // Archivo
+.archivo-title{
+    font-size:48px;
+}
+
 .proj-link-box{
     height:192px;
     overflow: hidden;
     transition: 0.4s;
     position: relative;
+    background: linear-gradient(to right, #000000, transparent 90%);
+    background: linear-gradient(to left, #000000, transparent 90%);
 }
 
 .proj-link-box:hover{
@@ -78,17 +90,30 @@ a{
 .proj-link-image{
     opacity: 0.8;
     transition: 0.8s;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    right: -9999px;
+    bottom: -9999px;
+    margin: auto;
 }
 
 .proj-link-image:hover{
     opacity: 0.3;
 }
 
-.proj-link-text{
+.proj-title{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
+@media (min-width: 576px) {
+    .proj-title,.archivo-title{
+        font-size: 72px;
+    }
 }
 
 //Proyecto
